@@ -1,0 +1,17 @@
+1) java script if block doesn't take boolean values. it take either truthy or falsy values.
+
+eg -> falsy values -
+
+null
+undefined
+0
+false
+""
+
+these are falsy values, and if one of this is a if condition, than in this case control will always got to else block.
+
+other than this all other values are truthy values eg ->
+
+1,2,2.2,-2.2,"vedant","abc" etc.
+
+* in java script we can make truthy and falsy values as conditions.
