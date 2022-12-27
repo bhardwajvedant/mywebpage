@@ -4,12 +4,12 @@ const heading = document.querySelector("h1");
 document.getElementsByTagName("a")[0].setAttribute("target","_blank");
 
 image.onmouseover=()=>{
-    image.setAttribute("src","/images/mountains.jpg");
+    image.setAttribute("src","images/mountains.jpg");
 
 };
 
 image.onmouseout=()=>{
-    image.setAttribute("src","/images/sunset.jpg");
+    image.setAttribute("src","images/sunset.jpg");
 };
 
 function setUsername(){
